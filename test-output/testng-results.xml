@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[<br>current test- Valid Login and Login Validation]]>
+    </line>
+    <line>
+      <![CDATA[<br>Current Xml Suite is:---->Login Functionality]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 1 : Perform login without entering password and Verify Log In Button is Disabled<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 2 : Verify button of color of Log in button when it in diseable state<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 3 : Verify button of color of Log in button when it in enable state<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 4 : Perform login with invalid ID and Verify error message.<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 5 : Perform login with invalid password and Verify error message.<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 6 : Perform login by entering blank password and Verify error message.<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 7 : Perform login using valid Input.<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Login Functionality" duration-ms="113937" started-at="2020-09-03T05:02:22Z" finished-at="2020-09-03T05:04:16Z">
+    <groups>
+    </groups>
+    <test name="Valid Login and Login Validation" duration-ms="113937" started-at="2020-09-03T05:02:22Z" finished-at="2020-09-03T05:04:16Z">
+      <class name="com.demo.login.testcases.LoginPageTest">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.demo.login.testcases.LoginPageTest@e7edb54]" name="fetchSuiteConfiguration" is-config="true" duration-ms="22" started-at="2020-09-03T05:02:22Z" finished-at="2020-09-03T05:02:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f8908f6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.demo.login.testcases.LoginPageTest@e7edb54]" name="setup" is-config="true" duration-ms="49232" started-at="2020-09-03T05:02:22Z" finished-at="2020-09-03T05:03:11Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@f8908f6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>current test- Valid Login and Login Validation]]>
+            </line>
+            <line>
+              <![CDATA[<br>Current Xml Suite is:---->Login Functionality]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:com.demo.login.testcases.LoginPageTest@e7edb54]" name="verifyTitle" duration-ms="6179" started-at="2020-09-03T05:03:11Z" finished-at="2020-09-03T05:03:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.login.testcases.LoginPageTest@e7edb54]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-03T05:03:17Z" finished-at="2020-09-03T05:03:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTitle status=SUCCESS method=LoginPageTest.verifyTitle()[pri:1, instance:com.demo.login.testcases.LoginPageTest@e7edb54] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="loginWithoutEnteringPassword()[pri:2, instance:com.demo.login.testcases.LoginPageTest@e7edb54]" name="loginWithoutEnteringPassword" duration-ms="7726" started-at="2020-09-03T05:03:17Z" finished-at="2020-09-03T05:03:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1 : Perform login without entering password and Verify Log In Button is Disabled<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithoutEnteringPassword -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.login.testcases.LoginPageTest@e7edb54]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-03T05:03:25Z" finished-at="2020-09-03T05:03:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithoutEnteringPassword status=SUCCESS method=LoginPageTest.loginWithoutEnteringPassword()[pri:2, instance:com.demo.login.testcases.LoginPageTest@e7edb54] output=<br>Step 1 : Perform login without entering password and Verify Log In Button is Disabled<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyDisableLoginButtonColor()[pri:3, instance:com.demo.login.testcases.LoginPageTest@e7edb54]" name="verifyDisableLoginButtonColor" duration-ms="2180" started-at="2020-09-03T05:03:25Z" finished-at="2020-09-03T05:03:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 2 : Verify button of color of Log in button when it in diseable state<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDisableLoginButtonColor -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.login.testcases.LoginPageTest@e7edb54]" name="tearDown" is-config="true" duration-ms="4" started-at="2020-09-03T05:03:27Z" finished-at="2020-09-03T05:03:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDisableLoginButtonColor status=SUCCESS method=LoginPageTest.verifyDisableLoginButtonColor()[pri:3, instance:com.demo.login.testcases.LoginPageTest@e7edb54] output=<br>Step 2 : Verify button of color of Log in button when it in diseable state<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyenbleLoginButtonColor()[pri:4, instance:com.demo.login.testcases.LoginPageTest@e7edb54]" name="verifyenbleLoginButtonColor" duration-ms="4270" started-at="2020-09-03T05:03:27Z" finished-at="2020-09-03T05:03:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 3 : Verify button of color of Log in button when it in enable state<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyenbleLoginButtonColor -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.login.testcases.LoginPageTest@e7edb54]" name="tearDown" is-config="true" duration-ms="4" started-at="2020-09-03T05:03:31Z" finished-at="2020-09-03T05:03:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyenbleLoginButtonColor status=SUCCESS method=LoginPageTest.verifyenbleLoginButtonColor()[pri:4, instance:com.demo.login.testcases.LoginPageTest@e7edb54] output=<br>Step 3 : Verify button of color of Log in button when it in enable state<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="loginByEnteringInvalidUserId()[pri:5, instance:com.demo.login.testcases.LoginPageTest@e7edb54]" name="loginByEnteringInvalidUserId" duration-ms="5877" started-at="2020-09-03T05:03:31Z" finished-at="2020-09-03T05:03:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 4 : Perform login with invalid ID and Verify error message.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginByEnteringInvalidUserId -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.login.testcases.LoginPageTest@e7edb54]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-09-03T05:03:37Z" finished-at="2020-09-03T05:03:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginByEnteringInvalidUserId status=SUCCESS method=LoginPageTest.loginByEnteringInvalidUserId()[pri:5, instance:com.demo.login.testcases.LoginPageTest@e7edb54] output=<br>Step 4 : Perform login with invalid ID and Verify error message.<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="loginByEnteringInvalidPassword()[pri:6, instance:com.demo.login.testcases.LoginPageTest@e7edb54]" name="loginByEnteringInvalidPassword" duration-ms="8170" started-at="2020-09-03T05:03:37Z" finished-at="2020-09-03T05:03:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 5 : Perform login with invalid password and Verify error message.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginByEnteringInvalidPassword -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.login.testcases.LoginPageTest@e7edb54]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-09-03T05:03:45Z" finished-at="2020-09-03T05:03:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginByEnteringInvalidPassword status=SUCCESS method=LoginPageTest.loginByEnteringInvalidPassword()[pri:6, instance:com.demo.login.testcases.LoginPageTest@e7edb54] output=<br>Step 5 : Perform login with invalid password and Verify error message.<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="loginByWithoutEnteringPassword()[pri:7, instance:com.demo.login.testcases.LoginPageTest@e7edb54]" name="loginByWithoutEnteringPassword" duration-ms="5651" started-at="2020-09-03T05:03:45Z" finished-at="2020-09-03T05:03:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 6 : Perform login by entering blank password and Verify error message.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginByWithoutEnteringPassword -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.login.testcases.LoginPageTest@e7edb54]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-09-03T05:03:51Z" finished-at="2020-09-03T05:03:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginByWithoutEnteringPassword status=SUCCESS method=LoginPageTest.loginByWithoutEnteringPassword()[pri:7, instance:com.demo.login.testcases.LoginPageTest@e7edb54] output=<br>Step 6 : Perform login by entering blank password and Verify error message.<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="validLogin()[pri:8, instance:com.demo.login.testcases.LoginPageTest@e7edb54]" name="validLogin" duration-ms="19772" started-at="2020-09-03T05:03:51Z" finished-at="2020-09-03T05:04:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 7 : Perform login using valid Input.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.login.testcases.LoginPageTest@e7edb54]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-09-03T05:04:11Z" finished-at="2020-09-03T05:04:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=LoginPageTest.validLogin()[pri:8, instance:com.demo.login.testcases.LoginPageTest@e7edb54] output=<br>Step 7 : Perform login using valid Input.<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.demo.login.testcases.LoginPageTest@e7edb54]" name="close" is-config="true" duration-ms="4773" started-at="2020-09-03T05:04:11Z" finished-at="2020-09-03T05:04:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="testResults()[pri:0, instance:com.demo.login.testcases.LoginPageTest@e7edb54]" name="testResults" is-config="true" duration-ms="1" started-at="2020-09-03T05:04:16Z" finished-at="2020-09-03T05:04:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResults -->
+      </class> <!-- com.demo.login.testcases.LoginPageTest -->
+    </test> <!-- Valid Login and Login Validation -->
+  </suite> <!-- Login Functionality -->
+</testng-results>

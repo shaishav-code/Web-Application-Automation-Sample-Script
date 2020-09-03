@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Functionality">
+  <test  name="Valid Login and Login Validation">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="selenium.url" value="https:https://uat.thegreenrfp.com/login" />
+  <classes>
+      <class name="com.demo.login.testcases.LoginPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
